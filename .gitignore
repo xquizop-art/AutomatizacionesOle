@@ -1,0 +1,85 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================
+# Database
+# ========================
+*.db
+*.sqlite3
+alembic/versions/*.py
+!alembic/versions/__init__.py
+
+# ========================
+# Node / Frontend
+# ========================
+node_modules/
+frontend/dist/
+frontend/build/
+.npm
+*.tsbuildinfo
+
+# ========================
+# Logs
+# ========================
+*.log
+logs/
+
+# ========================
+# Market Data (Parquet files)
+# ========================
+backend/data/storage/
+
+# ========================
+# Misc
+# ========================
+*.bak
+*.tmp
+.pytest_cache/
+.coverage
+htmlcov/
+debug_*.py
+trading_bot.db-shm
+trading_bot.db-wal
